@@ -46,6 +46,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
 }
 
 .logo {
@@ -216,12 +217,11 @@ nav ul li a.active {
 }
 
 .slider-controls {
-    position: absolute;
-    bottom: 180px;
-    right: 16%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-top: auto;
+    padding-bottom: 20px;
 }
 
 
@@ -295,7 +295,6 @@ nav ul li a.active {
     display: flex;
     position: absolute;
     top: -70px;
-    /* left: 11%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -305,11 +304,11 @@ nav ul li a.active {
 }
 
 .leader-info {
-    background-color: var(--secondary-blue);
-    color: var(--white);
-    padding: 40px;
-    position: relative;
     display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 40px;
+    background-color: var(--secondary-blue);
 }
 
 .leader-photo {
@@ -366,15 +365,10 @@ nav ul li a.active {
 }
 
 .arrow-right {
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
+    margin-left: auto;
+    align-self: flex-end;
     background-color: var(--white);
-    width: 80px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px;
 }
 
 .arrow-right img {
@@ -426,14 +420,12 @@ nav ul li a.active {
 }
 
 .telegram {
-    position: absolute;
-    background-color: var(--secondary-blue);
-    padding: 10px 25px;
-    text-align: center;
-    right: -80px;
     display: flex;
     gap: 20px;
-    bottom: -46px;
+    background-color: var(--secondary-blue);
+    padding: 10px 25px;
+    margin-top: 20px;
+    margin-left: auto;
 }
 
 .telegram span {
@@ -585,11 +577,10 @@ nav ul li a.active {
 }
 
 .contact-card {
-    flex: 1;
-    border-radius: 5px;
-    overflow: hidden;
-    position: relative;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
 }
 
 .contact-card .arrow-icon {
@@ -649,18 +640,9 @@ nav ul li a.active {
 }
 
 .rg-logo {
-    position: absolute;
-    right: 30px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: var(--white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid var(--primary-blue);
+    order: 2;
+    align-self: flex-end;
+    margin-top: auto;
 }
 
 .rg-logo img {
@@ -698,10 +680,6 @@ footer {
     text-decoration: underline;
     cursor: pointer;
 }
-
-
-
-
 
 
 .top-materials .container {
